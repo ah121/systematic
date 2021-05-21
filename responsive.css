@@ -4,9 +4,7 @@
         text-align: center;
     }
 
-    .search-box form {
-        margin: 0 auto;
-    }
+    
 
     .header-logo,
     .header-icon {
@@ -17,9 +15,7 @@
         background: none;
     }
 
-    .title-image img {
-        width: 100%;
-    }
+    
 
     .about-us h4,
     .service h4,
@@ -65,10 +61,7 @@
 }
 
 @media screen and (min-width:576px) and (max-width: 768px) {
-    .title-image img {
-        width: 100%;
-    }
-
+    
     .for-dark {
         background: none;
     }
@@ -97,8 +90,6 @@
 }
 
 @media screen and (min-width:769px) and (max-width: 992px) {
-    .title-image img {
-        width: 100%;
     }
 
     .main-menu ul li {
