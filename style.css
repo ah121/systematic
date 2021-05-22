@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+:root {
+    --colorw: white;
+    --colorb: black;
+    --coloro: orange;
+    --colorr: red;
+    --colorbg: #f2f2f2;
+    --font: 14px;
+    --font1: 26px;
+    --font3: 13px;
+    --font4: 16px;
+}
+
+/*     top header  start   */
+.top-header {
+    background: #ba2e1f;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.top-menu ul {
+    margin: 0;
+    padding: 15px 0;
+}
+
+.top-menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.top-menu ul li a {
+    text-decoration: none;
+    color: var(--colorw);
+    font-size: var(--font);
+    margin-left: 5px;
+    padding-right: 5px;
+    border-right: 1px solid var(--colorw);
+}
+
+#no-border {
+    border-right: none;
+}
+
+.search-box {
+    box-sizing: border-box;
+    padding: 15px 0;
+}
+
+.search-box form {
+    background: var(--colorw);
+    width: 100%;
+    max-width: 210px;
+    border-radius: 25px;
+    /* padding-top: 2px; */
+    box-sizing: border-box;
+}
+
+.search-box form input[type='text'] {
+    border: none;
+    border-radius: 25px;
+    width: 70%;
+    height: 20px;
+    margin-left: 15px;
+    outline: none;
+}
+
+form input[type='submit'] {
+    background-image: url(searchicon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 18px;
+    width: 20px;
+    border: none;
+    margin-left: 15px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+.header-logo {
+    padding-top: 30px;
+}
+
+.header-logo img {
+    max-width: 260px;
+}
+
+.header-icon {
+    height: 130px;
+    padding-top: 45px;
+}
+
+.header-icon ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header-icon ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.header-icon ul li a {
+    text-decoration: none;
+    color: var(--colorw);
+    background: var(--colorb);
+    display: inline-block;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.header-icon ul li a:hover {
+    background: var(--coloro);
+}
+
+/* main menu part   */
+.for-dark {
+    background: var(--colorb);
+}
+
+.main-menu .icon {
+    display: none;
+    text-decoration: none;
+    color: var(--colorb);
+}
+
+.main-menu i {
+    font-size: 25px;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    align-content: space-between;
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: table-cell;
+    height: 40px;
+    vertical-align: middle;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--colorw);
+    font-size: var(--font);
+}
+
+.main-menu ul li a:hover {
+    color: var(--colorr);
+}
+
+/*     top header  close    */
+
+/*    title part start    */
+
+.main-title h2 {
+    font-size: 86px;
+}
+
+.main-title a {
+    text-decoration: none;
+    color: var(--colorr);
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+
+/* ----------title part close----- */
+
+/* ----about part start --- */
+.about-us h4,
+.service h4,
+.client h4 {
+    font-size: var(--font1);
+    margin-bottom: 50px;
+}
+
+.about-us img {
+    margin-bottom: 25px;
+}
+
+.about-us p {
+    font-size: var(--font);
+}
+
+.for-button {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: right;
+    color: var(--colorr);
+}
+
+/* ----about part close --- */
+.service-title h6 {
+    font-size: var(--font);
+}
+
+.service-title p {
+    font-size: var(--font3);
+}
+
+/* -----service part----- */
+
+/* ------client part start--- */
+
+.client-only h6 {
+    font-size: var(--font);
+    background-image: url(qoute.png);
+    background-repeat: no-repeat;
+    height: 55px;
+    padding-left: 60px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.client-only p {
+    font-size: var(--font3);
+    padding-bottom: 5px;
+}
+
+/*   client part close   */
+
+/*    footer part start  */
+.tweets h4,
+.quick-link h4,
+.latest-blog h4,
+.contact-us h4 {
+    font-size: var(--font4);
+    margin-bottom: 30px;
+    border-top: 2px solid black;
+    padding-top: 25px;
+}
+
+.tweets p {
+    font-size: var(--font3);
+}
+
+.tweets p span,
+.post-title p span,
+.for-button:hover {
+    color: var(--colorr);
+}
+
+.quick-link ul {
+    margin: 0;
+    padding: 0;
+}
+
+.quick-link ul li {
+    list-style: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.quick-link ul li a {
+    text-decoration: none;
+    color: var(--colorb);
+}
+
+.post-title h6 {
+    font-size: var(--font);
+}
+
+.post-title p {
+    font-size: var(--font3);
+}
+
+.contact-us form input[type='text'],
+[type='email'] {
+    height: 35px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-us form input::placeholder,
+textarea::placeholder {
+    padding: 10px 0 10px 10px;
+    font-size: var(--font3);
+    background: var(--colorbg);
+}
+
+textarea {
+    border-radius: 5px;
+    border: none;
+    background: var(--colorbg);
+}
+
+button {
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+    color: var(--colorr);
+    font-size: var(--font);
+}
+
+.forbg {
+    background: var(--colorbg);
+}
+
+.owner p a {
+    text-decoration: none;
+    color: var(--colorb);
+}
+
+/* ------footer Title part close--- */
